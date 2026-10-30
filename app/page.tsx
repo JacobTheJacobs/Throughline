@@ -28,7 +28,6 @@ const SCAN_COLORS=["#f1aa6c","#f1ac6f","#ff7aa8","#f7b955","#9d8cff","#e6a872"];
 const REMOVAL_MS=820;
 type HomeExample={name:string;kind:string;icon:string;tone:string;prefer?:string;entityId?:string;externalSource?:"wikidata";externalId?:string};
 const EXAMPLES:HomeExample[]=[
- {name:"Everything Everywhere All at Once",kind:"Movie",icon:"▶",tone:"#ef8f72",prefer:"movie"},
  {name:"Anthropic",kind:"Brand",icon:"◆",tone:"#d39a6a",prefer:"brand",entityId:"external:anthropic",externalSource:"wikidata",externalId:"Q116758847"},
  {name:"Spirited Away",kind:"Best demo",icon:"✦",tone:"#e6a872",prefer:"movie"},
  {name:"Nike",kind:"Style",icon:"◇",tone:"#ff7d78",prefer:"brand"},
