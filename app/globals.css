@@ -1099,6 +1099,13 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--sw-accent);outline-
 .town-shell:has(.editorial-topbar) .brief-reference-copy{gap:4px}
 .town-shell:has(.editorial-topbar) .brief-reference-copy>b{font-size:15px!important;line-height:1.2}
 .town-shell:has(.editorial-topbar) .brief-reference-copy>p{font-size:11px!important;line-height:1.45;-webkit-line-clamp:2}
+.town-shell:has(.editorial-topbar) .brief-reference:has(.brief-path[open]){align-items:start;min-height:0;padding-block:13px!important}
+.town-shell:has(.editorial-topbar) .brief-reference:has(.brief-path[open])>img,.town-shell:has(.editorial-topbar) .brief-reference:has(.brief-path[open])>.brief-art-fallback{align-self:start}
+.town-shell:has(.editorial-topbar) .brief-reference:has(.brief-path[open]) .brief-reference-actions{align-self:stretch}
+.brief-path ol{display:flex;flex-wrap:wrap;align-items:center;gap:5px 6px;margin:8px 0 2px;padding:8px 9px;border:1px solid #e0d5c4;border-radius:9px;background:#f7f3eb;list-style:none}
+.brief-path li{display:inline-flex;min-width:0;align-items:center;color:#665e54;font-size:9px;font-weight:650;line-height:1.35}
+.brief-path li:not(:last-child)::after{content:"→";margin-left:6px;color:#a47a52;font-weight:800}
+.brief-path li:last-child{color:#213641;font-weight:800}
 .town-shell:has(.editorial-topbar) .brief-reference-actions>em{padding:6px 8px;background:#e4f1ed;color:#6f3d11;font-size:11px}
 .town-shell:has(.editorial-topbar) .taste-brief>footer{gap:10px;padding:16px 34px!important;border-color:#ddd7cc!important}
 .town-shell:has(.editorial-topbar) .brief-export-status small{font-size:10px}
