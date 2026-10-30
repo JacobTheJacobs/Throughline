@@ -1,0 +1,12 @@
+.git
+.next
+.sites-runtime
+.wrangler
+node_modules
+tests
+coverage
+.env
+.env.*
+*.log
+README.md
+

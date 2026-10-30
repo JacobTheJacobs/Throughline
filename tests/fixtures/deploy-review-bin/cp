@@ -1,0 +1,4 @@
+#!/bin/sh
+# Audit stub: never copies or changes server files.
+printf '%s\n' "cp $*" >> "$DEPLOY_AUDIT_LOG"
+exit 0

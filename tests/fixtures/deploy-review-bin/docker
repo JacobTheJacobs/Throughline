@@ -1,0 +1,6 @@
+#!/bin/sh
+# Audit stub: never contacts Docker. Fail after the old-service stop.
+printf '%s\n' "docker $*" >> "$DEPLOY_AUDIT_LOG"
+if [ "$1" = inspect ]; then exit 1; fi
+if [ "$1" = rename ] && [ "$2" = sideways-app ] && [ "$3" = sideways-previous ]; then exit 1; fi
+exit 0

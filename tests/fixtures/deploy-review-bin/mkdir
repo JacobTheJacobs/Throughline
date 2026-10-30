@@ -1,0 +1,3 @@
+#!/bin/sh
+printf "%s\n" "mkdir $*" >> "$DEPLOY_AUDIT_LOG"
+exit 0

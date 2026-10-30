@@ -1,0 +1,21 @@
+"use client";
+import {useMemo,useState} from "react";
+import {DEFAULT_SYNTHETIC_SEED,runSyntheticStudy,SYNTHETIC_ENGINE} from "@/lib/synthetic-study";
+import "../evidence.css";
+import "./synthetic.css";
+
+const percent=(value:number)=>`${Math.round(value*100)}%`;
+const seconds=(value:number)=>`${Math.round(value/1000)}s`;
+function download(value:unknown){const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:"application/json"})),anchor=document.createElement("a");anchor.href=url;anchor.download="synthetic-evidence.json";anchor.click();URL.revokeObjectURL(url)}
+
+export default function SyntheticEvidencePage(){
+ const[seed,setSeed]=useState(DEFAULT_SYNTHETIC_SEED),run=useMemo(()=>runSyntheticStudy(seed),[seed]),metrics=run.aggregate.metrics;
+ return <main className="evidence-page synthetic-page">
+  <header><a href="/evidence">← Human evidence</a><span>Agent simulation lab</span><h1>Synthetic evaluation rehearsal</h1><p>Personality-driven agents exercise the paired study before human recruitment. This checks the protocol, analysis, and product instrumentation—not real-world impact.</p></header>
+  <section className="synthetic-warning" role="note"><b>Synthetic—not human evidence</b><p>{run.disclosure}</p></section>
+  <section><div className="evidence-heading"><span>Reproducible run</span><h2>Same seed, same result</h2></div><div className="synthetic-controls"><label>Simulation seed<input type="number" value={seed} onChange={event=>setSeed(Number(event.target.value)||DEFAULT_SYNTHETIC_SEED)}/></label><button onClick={()=>setSeed(Math.floor(Math.random()*999999)+1)}>Run another scenario</button><button className="quiet" onClick={()=>setSeed(DEFAULT_SYNTHETIC_SEED)}>Reset baseline</button></div><dl className="run-meta"><div><dt>Engine</dt><dd>{SYNTHETIC_ENGINE}</dd></div><div><dt>Agents</dt><dd>{run.personas.length}</dd></div><div><dt>Reviewers</dt><dd>{run.reviews.length}</dd></div><div><dt>Protocol</dt><dd>{run.sessions[0]?.protocol}</dd></div></dl></section>
+  {metrics&&<section><div className="evidence-heading"><span>Illustrative outcome</span><h2>What this simulated cohort did</h2></div><div className="result-grid"><article><b>{percent(metrics.sidewaysCompletionRate)}</b><span>simulated Throughline completions within five minutes</span></article><article><b>{seconds(metrics.medianPairedTimeDifference)}</b><span>simulated median paired time difference</span></article><article><b>{metrics.sidewaysCategoryDiversity.toFixed(1)}</b><span>Throughline categories vs {metrics.normalCategoryDiversity.toFixed(1)} normal</span></article><article><b>{percent(metrics.usableOutputs)}</b><span>synthetic reviewer usefulness ≥4/5</span></article><article><b>{percent(metrics.willingnessToUse)}</b><span>simulated willingness to use</span></article><article><b>{percent(metrics.agreement)}</b><span>synthetic reviewer agreement</span></article></div><p className="simulation-caption">These numbers demonstrate analysis behavior only. They must never appear in the public human-evidence claim.</p></section>}
+  <section><div className="evidence-heading"><span>Cohort</span><h2>Twelve distinct working styles</h2></div><div className="persona-grid">{run.personas.map(persona=><article key={persona.id}><small>{persona.role}</small><h3>{persona.name}</h3><p>{persona.bio}</p><div aria-label={`${persona.name} traits`}><span>Curiosity {Math.round(persona.curiosity*100)}</span><span>Skepticism {Math.round(persona.skepticism*100)}</span><span>Fluency {Math.round(persona.toolFluency*100)}</span></div></article>)}</div></section>
+  <section><div className="evidence-heading"><span>Guardrails</span><h2>What this can and cannot prove</h2></div><div className="guardrail-grid"><article><b>Useful for</b><ul><li>Rehearsing study collection</li><li>Testing metric calculations</li><li>Finding brittle tasks and scoring rules</li><li>Creating a labeled demo</li></ul></article><article><b>Not valid for</b><ul><li>Claims about human behavior</li><li>Hackathon impact statistics</li><li>Replacing participant interviews</li><li>Publishing as user research</li></ul></article></div><button className="download-synthetic" onClick={()=>download(run)}>Download labeled synthetic JSON</button></section>
+ </main>
+}

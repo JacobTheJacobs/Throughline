@@ -1,0 +1,56 @@
+[
+  {
+    "query": "Tampopo",
+    "seed": {
+      "id": "BFBD0A3B-2279-4285-9BAB-1EDAD1249DA2",
+      "name": "Tampopo",
+      "type": "movie"
+    },
+    "positive": {
+      "id": "71C3817D-1BD4-4EE7-AA39-2776AF9D4AC7",
+      "name": "Eat Drink Man Woman",
+      "type": "movie"
+    },
+    "negative": {
+      "id": "3B4BF075-7E00-448F-8ECC-DBFDC83ED4AD",
+      "name": "Breasts and Eggs",
+      "type": "book"
+    }
+  },
+  {
+    "query": "Convenience Store Woman",
+    "seed": {
+      "id": "D48BE54C-B4ED-460B-BC8A-6EDFFFAD9AC6",
+      "name": "Convenience Store Woman",
+      "type": "book"
+    },
+    "positive": {
+      "id": "3B4BF075-7E00-448F-8ECC-DBFDC83ED4AD",
+      "name": "Breasts and Eggs",
+      "type": "book"
+    },
+    "negative": {
+      "id": "787DBA0E-839E-4ACD-81ED-719D4AE1067B",
+      "name": "Prince of Persia: The Lost Crown",
+      "type": "video game"
+    }
+  },
+  {
+    "query": "Animal Well",
+    "seed": {
+      "id": "99228AB4-3593-41F1-B5C9-6644C3A58FEE",
+      "name": "Animal Well",
+      "type": "videogame"
+    },
+    "positive": {
+      "id": "787DBA0E-839E-4ACD-81ED-719D4AE1067B",
+      "name": "Prince of Persia: The Lost Crown",
+      "type": "video game"
+    },
+    "negative": {
+      "id": "71C3817D-1BD4-4EE7-AA39-2776AF9D4AC7",
+      "name": "Eat Drink Man Woman",
+      "type": "movie"
+    }
+  }
+]

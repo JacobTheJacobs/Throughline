@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-29",
+  "site": "https://throughline.51-21-210-47.sslip.io",
+  "seed": 2026102910,
+  "queries": [
+    {
+      "query": "Portishead",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "045707A1-C8EF-443F-A882-1B97AC69DC9A",
+        "name": "Portishead",
+        "type": "artist"
+      },
+      "cards": [
+        {
+          "id": "wikidata:Q911143",
+          "name": "Dummy",
+          "type": "album",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q1093701",
+          "name": "Portishead",
+          "type": "album",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q571394",
+          "name": "Third",
+          "type": "album",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q1931682",
+          "name": "Roseland NYC Live",
+          "type": "movie",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q1613470",
+          "name": "Glory Times",
+          "type": "album",
+          "relation": "Performed by"
+        }
+      ],
+      "artwork": 5,
+      "missingArtwork": 0,
+      "failedImages": 0,
+      "edges": 5,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Janelle Monáe",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "5032D31E-1B79-4A40-901D-DCDDFA0F4493",
+        "name": "Janelle Monáe",
+        "type": "artist"
+      },
+      "cards": [
+        {
+          "id": "wikidata:Q113625018",
+          "name": "The Memory Librarian: And Other Stories of Dirty Computer",
+          "type": "book",
+          "relation": "Written by"
+        },
+        {
+          "id": "wikidata:Q119452",
+          "name": "We Are Young",
+          "type": "song",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q1933237",
+          "name": "The ArchAndroid",
+          "type": "album",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q51844917",
+          "name": "PYNK",
+          "type": "song",
+          "relation": "Performed by"
+        },
+        {
+          "id": "wikidata:Q52213432",
+          "name": "Dirty Computer",
+          "type": "album",
+          "relation": "Performed by"
+        }
+      ],
+      "artwork": 4,
+      "missingArtwork": 1,
+      "failedImages": 0,
+      "edges": 5,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Céline Sciamma",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "F825DABF-29D4-41A2-ABF3-765CC75D5AF5",
+        "name": "Céline Sciamma",
+        "type": "person"
+      },
+      "cards": [
+        {
+          "id": "66EBD81E-3F1B-4913-AF28-FD197DC49EE9",
+          "name": "Portrait of a Lady on Fire",
+          "type": "movie",
+          "relation": "Directed by"
+        },
+        {
+          "id": "9B4496E1-1E89-4D06-AC96-820F43D417B2",
+          "name": "My Life as a Zucchini",
+          "type": "movie",
+          "relation": "Screenplay by"
+        },
+        {
+          "id": "99588EBB-AE54-4F4F-BF2D-C6838358D1E0",
+          "name": "Petite Maman",
+          "type": "movie",
+          "relation": "Directed by"
+        },
+        {
+          "id": "6EAE3B3F-7EAE-4C1C-BEC4-5932379077BB",
+          "name": "Tomboy",
+          "type": "movie",
+          "relation": "Directed by"
+        },
+        {
+          "id": "1382C86A-D0DC-4D32-9E76-8E83D3E6BCB1",
+          "name": "Water Lilies",
+          "type": "movie",
+          "relation": "Directed by"
+        }
+      ],
+      "artwork": 5,
+      "missingArtwork": 0,
+      "failedImages": 0,
+      "edges": 5,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Italo Calvino",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "646AA9D6-9FF8-44A4-9934-C313F224A450",
+        "name": "Italo Calvino",
+        "type": "person"
+      },
+      "cards": [
+        {
+          "id": "3BA83F24-F99C-435F-A895-00C3D440F41D",
+          "name": "Boccaccio '70",
+          "type": "movie",
+          "relation": "Screenplay by"
+        },
+        {
+          "id": "wikidata:Q1032190",
+          "name": "If on a Winter’s Night a Traveler",
+          "type": "book",
+          "relation": "Written by"
+        },
+        {
+          "id": "wikidata:Q2450161",
+          "name": "The Baron in the Trees",
+          "type": "book",
+          "relation": "Written by"
+        },
+        {
+          "id": "wikidata:Q1219705",
+          "name": "Invisible Cities",
+          "type": "book",
+          "relation": "Written by"
+        },
+        {
+          "id": "wikidata:Q389380",
+          "name": "The Cloven Viscount",
+          "type": "book",
+          "relation": "Written by"
+        }
+      ],
+      "artwork": 1,
+      "missingArtwork": 4,
+      "failedImages": 0,
+      "edges": 5,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Fjällräven",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "1BFF764A-D06D-48CA-9075-1E0F2A3FCE3D",
+        "name": "Fjällräven",
+        "type": "brand"
+      },
+      "cards": [
+        {
+          "id": "wikidata:Q15993342",
+          "name": "Åke Nordin",
+          "type": "person",
+          "relation": "Founded by"
+        }
+      ],
+      "artwork": 0,
+      "missingArtwork": 1,
+      "failedImages": 0,
+      "edges": 1,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "The Lighthouse",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "EED85EBE-8C79-4116-8218-1864766FD78F",
+        "name": "The Lighthouse",
+        "type": "movie"
+      },
+      "cards": [
+        {
+          "id": "DF076727-AADA-4394-ABB4-83E952CEAD8A",
+          "name": "Nosferatu",
+          "type": "movie",
+          "relation": "Also by Robert Eggers"
+        },
+        {
+          "id": "F0161F42-C9AC-496F-B4D8-42FBE23AA545",
+          "name": "The Witch",
+          "type": "movie",
+          "relation": "Also by Robert Eggers"
+        },
+        {
+          "id": "EDFA9474-BB6F-4398-B5EC-ED1663C8E6E6",
+          "name": "The Northman",
+          "type": "movie",
+          "relation": "Also by Robert Eggers"
+        },
+        {
+          "id": "7E0F4C67-399A-4A93-95FC-BBC6C4FE0F1D",
+          "name": "I'm Thinking of Ending Things",
+          "type": "movie",
+          "relation": null
+        },
+        {
+          "id": "88044159-1A80-4539-9065-2AFB61659467",
+          "name": "Saint Maud",
+          "type": "movie",
+          "relation": null
+        }
+      ],
+      "artwork": 5,
+      "missingArtwork": 0,
+      "failedImages": 0,
+      "edges": 5,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Never Let Me Go",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "3ADBB2A8-6788-4CD9-93C4-417CAF2C789B",
+        "name": "Never Let Me Go",
+        "type": "book"
+      },
+      "cards": [
+        {
+          "id": "6D14517A-4A91-4CAF-97EE-318377F6D27B",
+          "name": "The Remains of the Day",
+          "type": "book",
+          "relation": "Also by Kazuo Ishiguro"
+        },
+        {
+          "id": "504A59EF-54E1-4911-8015-8FA64FC6AA8C",
+          "name": "Klara and the Sun",
+          "type": "book",
+          "relation": "Also by Kazuo Ishiguro"
+        },
+        {
+          "id": "44BD26BD-FE92-4C8D-8D61-C67E381C9298",
+          "name": "A Pale View of Hills",
+          "type": "book",
+          "relation": "Also by Kazuo Ishiguro"
+        },
+        {
+          "id": "7C89ACC0-058C-4940-BFAB-F9E389EE8F6E",
+          "name": "The Memory Police",
+          "type": "book",
+          "relation": null
+        }
+      ],
+      "artwork": 4,
+      "missingArtwork": 0,
+      "failedImages": 0,
+      "edges": 4,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Return of the Obra Dinn",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "2FAA4516-1158-488A-8274-6DD514DEFF02",
+        "name": "Return of the Obra Dinn",
+        "type": "videogame"
+      },
+      "cards": [
+        {
+          "id": "458AE8C0-0245-41D0-A58F-5B8A3124F8A3",
+          "name": "Papers, Please",
+          "type": "video game",
+          "relation": "Also by Lucas Pope"
+        },
+        {
+          "id": "EA0D6B19-199B-439B-809D-B60B4412E405",
+          "name": "Outer Wilds",
+          "type": "video game",
+          "relation": null
+        },
+        {
+          "id": "A49619FF-D98A-4CDA-B2DE-6000109E9BF2",
+          "name": "Tacoma",
+          "type": "video game",
+          "relation": null
+        },
+        {
+          "id": "3E967D40-0C64-4DB5-90DB-CF4248A97934",
+          "name": "Her Story",
+          "type": "video game",
+          "relation": null
+        }
+      ],
+      "artwork": 2,
+      "missingArtwork": 2,
+      "failedImages": 0,
+      "edges": 4,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Dark",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "16532236-EF51-4DE8-A94F-658E7EF614C3",
+        "name": "Dark",
+        "type": "tv show"
+      },
+      "cards": [
+        {
+          "id": "CF27DC8F-3E44-464E-A6C9-789A1B5156EA",
+          "name": "1899",
+          "type": "tv show",
+          "relation": null
+        },
+        {
+          "id": "064AC32D-CB0D-46D6-A266-E002D061D029",
+          "name": "Tales from the Loop",
+          "type": "tv show",
+          "relation": null
+        },
+        {
+          "id": "AE3CB00A-160B-4E86-80E0-1105912F7DD4",
+          "name": "Devs",
+          "type": "tv show",
+          "relation": null
+        }
+      ],
+      "artwork": 3,
+      "missingArtwork": 0,
+      "failedImages": 0,
+      "edges": 3,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    },
+    {
+      "query": "Valparaíso",
+      "status": "FLOW_PASS",
+      "seed": {
+        "id": "7F653EE3-B2B7-4A99-8466-760DA7179D65",
+        "name": "Valparaiso",
+        "type": "destination"
+      },
+      "cards": [
+        {
+          "id": "4AFA29AB-4A6B-4913-8A0E-17B02CAA34AF",
+          "name": "Valparaiso University",
+          "type": "place",
+          "relation": "Located in"
+        },
+        {
+          "id": "67E636B3-C219-4AB2-B6EE-34B4A6FFBD7A",
+          "name": "Stacks Bar and Grill",
+          "type": "place",
+          "relation": "Located in"
+        },
+        {
+          "id": "CEDD04D5-0B35-4192-BB18-8062358A1EFF",
+          "name": "Industrial Revolution Eatery & Grille",
+          "type": "place",
+          "relation": "Located in"
+        },
+        {
+          "id": "F424147F-4A6C-4614-BBEF-A8D803D366D5",
+          "name": "Zao Island",
+          "type": "place",
+          "relation": "Located in"
+        },
+        {
+          "id": "C4C20A9E-5A0A-4FD5-8A20-3D285C1D11F5",
+          "name": "Walmart Supercenter",
+          "type": "place",
+          "relation": "Located in"
+        }
+      ],
+      "artwork": 5,
+      "missingArtwork": 0,
+      "failedImages": 0,
+      "edges": 5,
+      "checks": [
+        "resolved",
+        "1–5 unique non-source cards",
+        "visible source context",
+        "relationship labels",
+        "no horizontal overflow",
+        "card opens",
+        "save does not expand or launch non-probe discovery",
+        "save survives reload",
+        "gallery opens"
+      ],
+      "errors": []
+    }
+  ],
+  "security": [
+    {
+      "probe": "/.env",
+      "status": 404,
+      "blocked": true
+    },
+    {
+      "probe": "/.env.local",
+      "status": 404,
+      "blocked": true
+    },
+    {
+      "probe": "/.git/config",
+      "status": 404,
+      "blocked": true
+    },
+    {
+      "probe": "/server.js",
+      "status": 404,
+      "blocked": true
+    },
+    {
+      "probe": "/package.json",
+      "status": 404,
+      "blocked": true
+    },
+    {
+      "probe": "/app.env",
+      "status": 404,
+      "blocked": true
+    },
+    {
+      "probe": "/api/discover",
+      "status": 405,
+      "blocked": true
+    },
+    {
+      "probe": "/api/agent",
+      "status": 405,
+      "blocked": true
+    },
+    {
+      "probe": "discover null body",
+      "status": 400,
+      "blocked": true
+    },
+    {
+      "probe": "agent null body",
+      "status": 400,
+      "blocked": true
+    },
+    {
+      "probe": "card null body",
+      "status": 400,
+      "blocked": true
+    },
+    {
+      "probe": "suggestions null body",
+      "status": 400,
+      "blocked": true
+    },
+    {
+      "probe": "foreign origin",
+      "status": 403,
+      "blocked": true
+    },
+    {
+      "probe": "oversized discover body",
+      "status": 400,
+      "blocked": true
+    }
+  ],
+  "state": [
+    {
+      "query": "The Lighthouse",
+      "saved": 1,
+      "cards": 5,
+      "galleryExploreHidden": true,
+      "reload": true
+    },
+    {
+      "query": "Dark",
+      "saved": 1,
+      "cards": 3,
+      "galleryExploreHidden": true,
+      "reload": true
+    },
+    {
+      "agentRoot": "The Lighthouse",
+      "savedSignals": 1,
+      "memoryScoped": true,
+      "before": 5,
+      "after": 10,
+      "streamAdditions": 5,
+      "log": "Ready\nQloo matches\n×\n⌁\n\nChecking places, artists, books, TV shows, films connected to The Witch.\n\n+\n\nFrom The Witch → 6 relevant films → kept 1 by taste fit.\n\n✓\n\nAdded 5 new recommendations. Strongest direction: Horror."
+    },
+    {
+      "mapWidth": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "mapWidth": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "mapWidth": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "mapWidth": 1440,
+      "horizontalOverflow": false
+    }
+  ],
+  "ui": [
+    {
+      "sharedHtmlEscaped": true,
+      "unsafeLinksDropped": true,
+      "httpImageDropped": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "inputReachable": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "inputReachable": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "inputReachable": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "inputReachable": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "inputReachable": true,
+      "horizontalOverflow": false
+    }
+  ],
+  "release": "2026-10-29-audit10-final",
+  "server": {
+    "uid": 1000,
+    "readOnly": true,
+    "capabilitiesDropped": [
+      "ALL"
+    ],
+    "noNewPrivileges": true,
+    "publicAppPort": false,
+    "knownRuntimeAdvisories": 0,
+    "publicAssetFilesScanned": 39,
+    "exactSecretValueMatches": 0
+  }
+}

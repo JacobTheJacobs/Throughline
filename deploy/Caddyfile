@@ -1,0 +1,24 @@
+sideways.51-21-210-47.sslip.io {
+  redir https://throughline.51-21-210-47.sslip.io{uri} permanent
+}
+
+throughline.51-21-210-47.sslip.io {
+  encode zstd gzip
+  request_body {
+    max_size 300KB
+  }
+  reverse_proxy sideways-app:8000 {
+    header_up -Cf-Ray
+    header_up -Cf-Connecting-Ip
+    header_up -X-Real-Ip
+  }
+  header {
+    -Server
+    Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    X-Content-Type-Options "nosniff"
+    Referrer-Policy "strict-origin-when-cross-origin"
+    Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    X-Frame-Options "DENY"
+    Content-Security-Policy "default-src 'self'; img-src 'self' data: blob: https://*.qloo.com https://i.ytimg.com https://coverartarchive.org https://archive.org https://*.archive.org https://covers.openlibrary.org; media-src 'self' https:; frame-src https://www.youtube.com https://www.youtube-nocookie.com; script-src 'self' 'unsafe-inline'; object-src 'none'; style-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+  }
+}

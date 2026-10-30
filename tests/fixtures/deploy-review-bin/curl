@@ -1,0 +1,4 @@
+#!/bin/sh
+# Audit stub: no network request.
+printf '%s\n' "curl $*" >> "$DEPLOY_AUDIT_LOG"
+exit 0
